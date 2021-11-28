@@ -1,5 +1,5 @@
 <template>
-  <div class="app-btn app-btn__default" :class="buttonClassNames">
+  <div class="app-btn app-btn__default cursor-pointer" :class="buttonClassNames">
     {{ label }}
   </div>
 </template>
@@ -35,10 +35,6 @@
     padding: 12px 32px;
     border-radius: 6px;
     font-weight: 400;
-
-    &:hover {
-      cursor: pointer;
-   }
   }
 
 
